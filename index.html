@@ -1,25 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width , initial-scale=1" >
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+<form method="post"> 
+<label for="firstName">Firstname</label>
+<input type="text" name="firstname" id="fisrtName">  <br><br>
+<label for="middleName">Middlename     </label>
+<input type="text" name="middlename" id="middleName"><br><br>
+<label for="lastName">Lastname</label>
+<input type="text" name="lastname" id="lastName"><br><br>
+<label for="phonenumber">Phone Number</label>
+<input type="number" name="phoneNumber" id="phonenumber"><br><br>
+<label for="email">Email</label>
+<input type="email" name="email" id="email"><br><br>
+<label for="password">Password</label>
+<input type="password" name="password" id="password"><br><br>
+<label for="gender">Gender</label>
+<input type="radio" name="gender" id="male">
+<label for="gender">Female</label>
+<input type="radio" name="gender" id="female"> <br><br>
+<label for="file">Upload your files here</label>
+<input type="file" name="files" id="file"> <br><br>
+<label for="date">Date and Time</label>
+<input type="datetime-local" name="date" id="date"> <br><br>
+<!-- <label for="color">Choose your fav Color</label>
+<input type="color" name="color" id="color">  <br> -->
+<label for="URL"></label>
+<label for="submit"</label>
+<input type="submit" value="Submit"> 
+<input type="checkbox" name="not a Robot" id="notRobot"> 
+<label for="notRobot">I am notRobot</label><br><br><br>
 
-<button id="btn-gmail-open"> open gmail </button>
-<button id="btn-gmail-close">close gmail</button>
+<label for="image">Click here for more information </label>
+<a href="https://www.google.com/"  target="_blank"> Google Page
+<img src="Google.jpg" alt="Google Search" width="42" height="20" style="float:left">
+</a> <br> <br>
 
-<div id="timer" style="color:rgb(29, 255, 29)"> 
-<p>Timer Start</p>
-</div>
+<Label>Thank you and visit again</Label>
+<input type="image" src="Smiley.jpg" alt="Smiley" width="42" height="42"  style="vertical-align:middle">
 
-<div class="box"> Create a Gmail account</div>
-<div class="box">Sign in to Gmail</div>
-
-
-<script src="script.js"></script>
-<script src="task.js"></script>
+</form>
 </body>
-</html> 
+</html>
